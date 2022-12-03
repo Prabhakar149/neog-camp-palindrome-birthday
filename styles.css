@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* --primary-color: #7c3aed; */
+    --primary-color: #054a2d;
+}
+div{
+    text-align: center;
+    margin: 3rem;
+    color: var(--primary-color);
+}
+h1{
+    font-size: xx-large;
+    margin: 2rem;
+}
+.input-label{
+    display: block;
+    font-size: large;
+    font-weight: 700;
+}
+#birthday{
+    font-size: 16px;
+    outline: #fff;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 260px;
+}
+.myBtn{
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+#output{
+    font-size: x-large;
+    margin: 2rem 0;
+}
