@@ -80,12 +80,3 @@ a {
     width: 40px;
     padding: 1rem 0.4rem;
   }
-
-
-  /* for small devices */
-
-@media (max-width: 360px){
-    footer {
-        position: fixed;
-      }
-  }
