@@ -85,7 +85,7 @@ a {
   /* for small devices */
 
 @media (max-width: 360px){
-    body{
-        background-color: blue;
-    }
+    footer {
+        position: fixed;
+      }
   }
